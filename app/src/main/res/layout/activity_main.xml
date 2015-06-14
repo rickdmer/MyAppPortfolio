@@ -103,6 +103,5 @@
         android:layout_alignLeft="@+id/readerButton"
         android:layout_alignStart="@+id/readerButton"
         android:theme="@style/AccentButton"
-        android:onClick="toastMessage"
         style="@style/DefaultButton" />
 </RelativeLayout>
