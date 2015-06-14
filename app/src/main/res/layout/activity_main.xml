@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#FFF8E1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:textColor="#ff2f2f2f"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/spotifyButton"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:onClick="toastMessage"
+        style="@style/DefaultButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Football Scores App"
+        android:id="@+id/scoresAppButton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/spotifyButton"
+        android:layout_alignLeft="@+id/spotifyButton"
+        android:layout_alignStart="@+id/spotifyButton"
+        android:layout_alignRight="@+id/spotifyButton"
+        android:layout_alignEnd="@+id/spotifyButton"
+        android:onClick="toastMessage"
+        style="@style/DefaultButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:id="@+id/libraryAppButton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/scoresAppButton"
+        android:layout_alignLeft="@+id/scoresAppButton"
+        android:layout_alignStart="@+id/scoresAppButton"
+        android:layout_alignRight="@+id/scoresAppButton"
+        android:layout_alignEnd="@+id/scoresAppButton"
+        android:onClick="toastMessage"
+        style="@style/DefaultButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build it Bigger"
+        android:id="@+id/buildItBiggerButton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/libraryAppButton"
+        android:layout_alignLeft="@+id/libraryAppButton"
+        android:layout_alignStart="@+id/libraryAppButton"
+        android:layout_alignRight="@+id/libraryAppButton"
+        android:layout_alignEnd="@+id/libraryAppButton"
+        android:onClick="toastMessage"
+        style="@style/DefaultButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/readerButton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/buildItBiggerButton"
+        android:layout_alignLeft="@+id/buildItBiggerButton"
+        android:layout_alignStart="@+id/buildItBiggerButton"
+        android:layout_alignRight="@+id/buildItBiggerButton"
+        android:layout_alignEnd="@+id/buildItBiggerButton"
+        android:onClick="toastMessage"
+        style="@style/DefaultButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone: My Own App"
+        android:id="@+id/capstoneButton"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/readerButton"
+        android:layout_alignRight="@+id/readerButton"
+        android:layout_alignEnd="@+id/readerButton"
+        android:layout_alignLeft="@+id/readerButton"
+        android:layout_alignStart="@+id/readerButton"
+        android:theme="@style/AccentButton"
+        android:onClick="toastMessage"
+        style="@style/DefaultButton" />
+</RelativeLayout>
